@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidan hittades inte – iCut</title>
+<meta name="description" content="Sidan du letade efter finns inte. Gå tillbaka till iCut's startsida.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script>
+(function(){
+  var saved = localStorage.getItem('icut-theme');
+  if(saved) document.documentElement.setAttribute('data-theme', saved);
+})();
+</script>
+<link rel="stylesheet" href="site-kit.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  gap: 1.5rem;
+}
+.error-code {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(6rem, 20vw, 12rem);
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1;
+  opacity: 0.18;
+  user-select: none;
+}
+.error-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 600;
+  color: var(--ink);
+  margin-top: -3rem;
+}
+.error-text {
+  color: var(--ink-faint);
+  max-width: 36ch;
+  font-size: 1rem;
+}
+.error-logo { max-height: 44px; margin-bottom: 0.5rem; }
+</style>
+</head>
+<body>
+<a href="index.html" class="skip-link">Hoppa till innehåll</a>
+<main id="main">
+  <div class="error-page">
+    <a href="index.html"><img src="logo.jpg" alt="iCut" class="error-logo"></a>
+    <div class="error-code" aria-hidden="true">404</div>
+    <h1 class="error-title">Den här sidan finns inte</h1>
+    <p class="error-text">Sidan du letade efter verkar ha försvunnit — men ditt hår behöver vi fortfarande ta hand om.</p>
+    <a href="index.html" class="btn-primary">Tillbaka till startsidan</a>
+  </div>
+</main>
+</body>
+</html>
