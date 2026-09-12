@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="sv" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iCut – Frisör & Barberare i Borås</title>
+<meta name="description" content="iCut är en modern frisör- och barberarsalong i Borås. Boka din tid enkelt – vi ser till att du alltid lämnar nöjd.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script>
+(function(){
+  var saved = localStorage.getItem('icut-theme');
+  if(saved) document.documentElement.setAttribute('data-theme', saved);
+})();
+</script>
+<link rel="stylesheet" href="site-kit.css">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "iCut",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Stengärdsgatan 33",
+    "postalCode": "503 34",
+    "addressLocality": "Borås",
+    "addressCountry": "SE"
+  },
+  "url": "http://cutit.nu/",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "3"
+  }
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Hoppa till innehåll</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-link">
+      <img src="logo.jpg" alt="iCut" class="site-logo">
+    </a>
+    <nav class="site-nav" aria-label="Huvudnavigation">
+      <a href="#om">Om oss</a>
+      <a href="#tjanster">Tjänster</a>
+      <a href="#boka">Boka</a>
+      <a href="#recensioner">Recensioner</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Växla mörkt/ljust läge" type="button">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="#boka" class="btn-primary nav-cta">Boka tid</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <div class="name-pin">
+    <section class="hero name-pin-inner">
+      <h1 class="visually-hidden">iCut</h1>
+      <div class="name-write-img">
+        <img class="base" src="logo.jpg" alt="">
+        <img class="color" src="logo.jpg" alt="">
+      </div>
+      <p class="hero-eyebrow">Frisör &amp; Barberare · Borås</p>
+      <p class="hero-tagline">Välskött. Enkelt. På riktigt.</p>
+      <div class="hero-cta">
+        <a href="#boka" class="btn-primary">Boka din tid</a>
+        <a href="#tjanster" class="btn-ghost">Se tjänster</a>
+      </div>
+      <div class="hero-rating">
+        <span class="stars" data-rating="5"></span>
+        <span class="hero-rating-text">5/5 på Google</span>
+      </div>
+    </section>
+  </div>
+
+  <!-- OM OSS -->
+  <section class="section section-om reveal" id="om">
+    <div class="container">
+      <div class="om-grid">
+        <div class="om-text">
+          <span class="section-label">Om salongen</span>
+          <h2>Hantverk du känner direkt</h2>
+          <p>iCut är en frisör- och barberarsalong i Borås – en plats där du inte behöver förklara dig två gånger. Här är det hantverket som talar. Vi lyssnar på vad du vill ha, jobbar noggrant och ser till att du lämnar salongen med ett resultat du faktiskt är nöjd med.</p>
+          <p>Vi välkomnar alla – oavsett om du vill ha en skarp barberkant eller en avslappnad klippning. Inga onödiga krångel, ingen väntan i ovisshet. Bara en välskött upplevelse från start till mål.</p>
+          <p>Hitta oss på Stengärdsgatan 33 i Borås.</p>
+        </div>
+        <div class="om-accent-block">
+          <div class="om-quote">&ldquo;Best hairdresser&rdquo;</div>
+          <div class="om-quote-attr">— Arian Ismajli, Google</div>
+          <div class="om-divider"></div>
+          <div class="om-stat">
+            <span class="om-stat-value">5/5</span>
+            <span class="om-stat-label">Google-betyg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-bottom">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="var(--paper-raised)" d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z"/></svg>
+    </div>
+  </section>
+
+  <!-- TJÄNSTER -->
+  <section class="section section-tjanster reveal" id="tjanster">
+    <div class="container">
+      <span class="section-label">Tjänster</span>
+      <h2>Vad vi gör</h2>
+      <p class="section-intro">Nedan hittar du våra tjänster. Klicka på <em>Boka</em> på valfri rad för att välja frisör och tid direkt.</p>
+
+      <div class="menu-groups">
+
+        <div class="menu-group">
+          <h3>Klippning <span class="menu-group-count">3</span></h3>
+          <!--FIELD:services-->
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Herrklippning</span>
+              <span class="price-item-duration">30 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Herrklippning" data-duration-minutes="30">Boka</button>
+          </div>
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Damklippning</span>
+              <span class="price-item-duration">45 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Damklippning" data-duration-minutes="45">Boka</button>
+          </div>
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Barnklippning</span>
+              <span class="price-item-duration">20 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Barnklippning" data-duration-minutes="20">Boka</button>
+          </div>
+          <!--/FIELD:services-->
+        </div>
+
+        <div class="menu-group">
+          <h3>Barbertjänster <span class="menu-group-count">3</span></h3>
+          <!--FIELD:services-->
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Skäggklippning</span>
+              <span class="price-item-duration">20 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Skäggklippning" data-duration-minutes="20">Boka</button>
+          </div>
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Rakning</span>
+              <span class="price-item-duration">30 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Rakning" data-duration-minutes="30">Boka</button>
+          </div>
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Klippning &amp; Skägg</span>
+              <span class="price-item-duration">50 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Klippning &amp; Skägg" data-duration-minutes="50">Boka</button>
+          </div>
+          <!--/FIELD:services-->
+        </div>
+
+        <div class="menu-group">
+          <h3>Styling &amp; Finish <span class="menu-group-count">2</span></h3>
+          <!--FIELD:services-->
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Tvätt &amp; Styling</span>
+              <span class="price-item-duration">30 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Tvätt &amp; Styling" data-duration-minutes="30">Boka</button>
+          </div>
+          <div class="price-item">
+            <div class="price-item-info">
+              <span class="price-item-name">Konsultation</span>
+              <span class="price-item-duration">15 min</span>
+            </div>
+            <div class="price-item-price">
+              <!--FIELD:prices--><span class="price-item-amount price-placeholder">Företagets priser här</span><!--/FIELD:prices-->
+            </div>
+            <button class="price-item-book-btn" type="button" data-service-name="Konsultation" data-duration-minutes="15">Boka</button>
+          </div>
+          <!--/FIELD:services-->
+        </div>
+
+      </div>
+    </div>
+    <div class="wave-bottom wave-bottom--linen">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="var(--paper)" d="M0,20 C480,55 960,5 1440,35 L1440,60 L0,60 Z"/></svg>
+    </div>
+  </section>
+
+  <!-- ÖPPETTIDER -->
+  <section class="section section-oppettider reveal" id="oppettider">
+    <div class="container">
+      <span class="section-label">Öppettider</span>
+      <h2>När vi finns här</h2>
+      <!--FIELD:opening_hours-->
+      <div class="hours-notice">
+        <p>Aktuella öppettider hittar du via vår Google-sida eller genom att kontakta oss direkt. Vi uppdaterar löpande vid helgdagar och avvikelser.</p>
+        <a href="https://www.google.com/maps/search/iCut+Bor%C3%A5s" class="btn-ghost" target="_blank" rel="noopener noreferrer">Se på Google Maps</a>
+      </div>
+      <!--/FIELD:opening_hours-->
+    </div>
+  </section>
+
+  <!-- BOKA -->
+  <section class="section section-boka reveal" id="boka">
+    <div class="container boka-container">
+      <span class="section-label">Boka tid</span>
+      <h2>Välj en tjänst ovan&nbsp;&amp; tryck Boka</h2>
+      <p class="section-intro">Välj den tjänst du vill boka i listan ovan – klicka sedan på <strong>Boka</strong> på den raden så öppnas bokningsrutan direkt. Du väljer frisör, datum och tid, och är klar på under en minut.</p>
+      <!--FIELD:booking_url-->
+      <div class="boka-alt">
+        <p>Föredrar du att boka via Instagram? Skicka ett DM så hjälper vi dig.</p>
+        <!--FIELD:instagram-->
+        <a href="https://www.instagram.com/icutboras/" class="btn-primary" target="_blank" rel="noopener noreferrer">DM på Instagram</a>
+        <!--/FIELD:instagram-->
+      </div>
+      <!--/FIELD:booking_url-->
+    </div>
+  </section>
+
+  <!-- RECENSIONER -->
+  <section class="section section-recensioner reveal" id="recensioner">
+    <div class="container">
+      <span class="section-label">Vad våra kunder säger</span>
+      <h2>Recensioner</h2>
+      <!--FIELD:google_rating-->
+      <div class="rating-hero">
+        <div class="rating-score" data-count-to="5" data-decimals="1">0.0</div>
+        <div class="rating-stars-wrap">
+          <span class="stars" data-rating="5"></span>
+          <span class="rating-source">Google-betyg · 3 recensioner</span>
+        </div>
+        <a href="https://www.google.com/maps/search/iCut+Bor%C3%A5s" class="btn-ghost rating-all-link" target="_blank" rel="noopener noreferrer">Läs alla recensioner</a>
+      </div>
+      <!--/FIELD:google_rating-->
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars"><span class="stars" data-rating="5"></span></div>
+          <blockquote class="review-text">&ldquo;Always satisfied when I've been to Sandra's for a haircut 🤩&rdquo;</blockquote>
+          <div class="review-meta">
+            <span class="review-author">Margaretha Bergman</span>
+            <span class="review-time">För 4 år sedan</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars"><span class="stars" data-rating="5"></span></div>
+          <blockquote class="review-text">&ldquo;Fantastically talented!!!
+And very nice!&rdquo;</blockquote>
+          <div class="review-meta">
+            <span class="review-author">Annette Nyberg</span>
+            <span class="review-time">För 3 år sedan</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars"><span class="stars" data-rating="5"></span></div>
+          <blockquote class="review-text">&ldquo;Best hairdresser 🙌&rdquo;</blockquote>
+          <div class="review-meta">
+            <span class="review-author">Arian Ismajli</span>
+            <span class="review-time">För 10 månader sedan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-bottom">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="var(--paper-raised)" d="M0,40 C360,10 1080,55 1440,20 L1440,60 L0,60 Z"/></svg>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section section-kontakt reveal" id="kontakt">
+    <div class="container">
+      <span class="section-label">Kontakt</span>
+      <h2>Hitta oss</h2>
+      <div class="kontakt-grid">
+        <div class="kontakt-info">
+          <div class="kontakt-block">
+            <h3>Adress</h3>
+            <!--FIELD:address-->
+            <address>
+              Stengärdsgatan 33<br>
+              503 34 Borås
+            </address>
+            <!--/FIELD:address-->
+          </div>
+          <div class="kontakt-block">
+            <h3>Telefon</h3>
+            <!--FIELD:phone-->
+            <p class="kontakt-missing">Kontakta oss via Instagram för att komma i kontakt.</p>
+            <!--/FIELD:phone-->
+          </div>
+          <div class="kontakt-block">
+            <h3>Öppettider</h3>
+            <!--FIELD:opening_hours-->
+            <p class="kontakt-missing">Kontakta oss för aktuella öppettider.</p>
+            <!--/FIELD:opening_hours-->
+          </div>
+          <div class="kontakt-block">
+            <h3>Sociala medier</h3>
+            <!--FIELD:instagram-->
+            <a href="https://www.instagram.com/icutboras/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              @icutboras
+            </a>
+            <!--/FIELD:instagram-->
+            <!--FIELD:facebook-->
+            <!-- Facebook: saknas i underlaget -->
+            <!--/FIELD:facebook-->
+            <!--FIELD:email-->
+            <!-- E-post: saknas i underlaget -->
+            <!--/FIELD:email-->
+          </div>
+          <div class="kontakt-block">
+            <h3>Webbplats</h3>
+            <!--FIELD:website-->
+            <a href="http://cutit.nu/" class="social-link" target="_blank" rel="noopener noreferrer">cutit.nu</a>
+            <!--/FIELD:website-->
+          </div>
+        </div>
+        <div class="kontakt-map">
+          <!--FIELD:address-->
+          <iframe
+            title="iCut på kartan"
+            src="https://www.google.com/maps?q=Steng%C3%A4rdsgatan+33%2C+503+34+Bor%C3%A5s%2C+Sweden&output=embed"
+            width="100%"
+            height="320"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <!--/FIELD:address-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="index.html" class="footer-logo">
+      <img src="logo.jpg" alt="iCut" class="site-logo">
+    </a>
+    <div class="footer-cols">
+      <div>
+        <!--FIELD:company_name--><strong>iCut</strong><!--/FIELD:company_name--> &mdash; Frisör &amp; Barberare i Borås<br>
+        <!--FIELD:address-->Stengärdsgatan 33, 503 34 Borås<!--/FIELD:address-->
+      </div>
+      <div>
+        <!--FIELD:instagram-->
+        <a href="https://www.instagram.com/icutboras/" target="_blank" rel="noopener noreferrer">Instagram: @icutboras</a>
+        <!--/FIELD:instagram-->
+      </div>
+      <div>
+        <!--FIELD:website-->
+        <a href="http://cutit.nu/" target="_blank" rel="noopener noreferrer">cutit.nu</a>
+        <!--/FIELD:website-->
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2025 iCut Borås AB. Alla rättigheter förbehållna.</p>
+  </div>
+</footer>
+
+<!-- BOKNINGSWIDGET -->
+<div class="booking-widget-backdrop" id="bookingWidget" data-company-id="51c84a41-06b7-40fa-8dc1-7bf4b2905be0" data-api-base="http://localhost:3000">
+  <div class="booking-widget-modal" role="dialog" aria-modal="true" aria-label="Boka tid">
+    <button class="booking-widget-close" id="bookingWidgetClose" type="button" aria-label="Stäng">&times;</button>
+    <div class="booking-widget-service">
+      <span class="booking-widget-service-name" id="bookingWidgetServiceName"></span>
+      <span class="booking-widget-service-meta" id="bookingWidgetServiceMeta"></span>
+    </div>
+    <div class="booking-widget-step" id="bookingWidgetStepStaff">
+      <label class="booking-widget-label" for="bookingWidgetStaffSelect">Välj frisör</label>
+      <select class="booking-widget-select" id="bookingWidgetStaffSelect" aria-label="Välj frisör"></select>
+      <button class="booking-widget-search-btn" id="bookingWidgetSearchBtn" type="button">Sök tider</button>
+    </div>
+    <div class="booking-widget-step" id="bookingWidgetStepTimes" hidden>
+      <button class="booking-widget-back" id="bookingWidgetBack" type="button">‹ Byt frisör</button>
+      <div class="booking-cal-head">
+        <button class="booking-cal-nav" type="button" data-dir="-1" aria-label="Föregående vecka">‹</button>
+        <span class="booking-cal-range" id="bookingWidgetRange"></span>
+        <button class="booking-cal-nav" type="button" data-dir="1" aria-label="Nästa vecka">›</button>
+      </div>
+      <div class="booking-cal-grid" id="bookingWidgetGrid"></div>
+      <p class="booking-cal-next-available" id="bookingWidgetNextAvail" style="display:none;"></p>
+    </div>
+  </div>
+</div>
+
+<!-- BEKRÄFTELSEMODAL -->
+<div class="bd-backdrop" id="bdBackdrop">
+  <div class="bd-modal" role="dialog" aria-modal="true" aria-label="Bokning">
+    <div class="bd-header">
+      <div class="bd-brand"><span class="dot"></span>iCut</div>
+      <button class="bd-close" id="bdClose" type="button" aria-label="Stäng">&times;</button>
+    </div>
+    <div class="bd-body">
+      <div class="bd-form">
+        <div class="bd-slot-summary"><strong id="bdSlotLine">—</strong>Hos iCut</div>
+        <div class="bd-field"><label for="bdName">Namn</label><input id="bdName" type="text"></div>
+        <div class="bd-field"><label for="bdPhone">Telefonnummer</label><input id="bdPhone" type="tel"></div>
+        <button class="bd-confirm-btn" id="bdConfirm" type="button">Bekräfta bokning</button>
+      </div>
+      <div class="bd-success"><div class="check">&#10003;</div><p id="bdSuccessLine">Bokat!</p><p class="fine">Vi ser fram emot ditt besök.</p></div>
+    </div>
+  </div>
+</div>
+
+<script src="site-kit.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
